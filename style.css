@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif; 
-  font-size: 18px;
+  font-size: 20px;
   line-height: 150%;
 }
 
@@ -15,33 +15,35 @@ h1 {
   font-size: 28px;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-emphasis: bolder;
 }
 
 h2 {
   font-size: 24px;
+  text-align: left;
+  text-emphasis: bolder;
+
 }
 h3 {
   font-size: 24px;
-  text-align: center;
+  text-align: left;
+  text-emphasis: bolder;
 }
 
 .container {
   width: 100%;
-  margin: 10px;
+  margin: 30px;
 }
 
 #main-bio {
 float: left;
-width: 35%;
 }
 #resumeImg{
   float: left;
-  width: 35%;
 }
 
 #contact-info {
   float: left;
-  width: 30%;
   line-height: 150%;
 }
 
