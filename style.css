@@ -1,7 +1,5 @@
 body { 
   background-color: #efeee7;
-  margin: 0;
-  padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif; 
   font-size: 20px;
   line-height: 150%;
@@ -10,51 +8,40 @@ body {
 h1 {
   color: #efeee7;
   background-color: #333333;
-  margin: 0;
   text-align: center;
-  font-size: 28px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font-size: 40px;
   text-emphasis: bolder;
+  width: 100%;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 30px;
   text-align: left;
   text-emphasis: bolder;
-
+  text-indent: 25%;
 }
-h3 {
-  font-size: 24px;
-  text-align: left;
+ul{
   text-emphasis: bolder;
+  align-items: center;
+  margin-left: 25px;
 }
 
-.container {
-  width: 100%;
-  margin: 30px;
-}
-
-#main-bio {
+#main-bio, #resumeImg {
 float: left;
 }
-#resumeImg{
-  float: left;
-}
 
-#contact-info {
-  float: left;
+#contact-info{
+  float: right;
   line-height: 150%;
 }
 
 a {
-  color: #d21034;
+  color: darkmagenta;
 }
 
-#bio-image {
+#bio-image{
   float: left;
-  width: 60%;
-  height: 60%;
-  margin-bottom: 20px;
-  margin-right: 20px;
+  width: 75%;
+  height: 75%;
 }
+
