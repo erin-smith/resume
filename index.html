@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -12,29 +13,27 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <h1>Student Bio</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <h1>Erin Smith: Resume & Contact </h1>
     </nav>
 
     <div class="container-fluid">
       <div class="row pt-5">
-        <div class="col-4" id="main-bio">
-          <h2>Erin Smith</h2>
-          <img src="files/self.jpg" alt="Erin" id="bio-image">
-        </div>
-        <div class="col-4" id="resumeImg">
-          <h2>Click Resume Image</h2>
-          <a href="files/Erin_Resume.pdf" target="_blank"><img alt="Resume thumbnail" id="thumb"
+        <div class="col-lg-6" id="resumeImg">
+          <h2 class="mb-4">Click Resume Image</h2>
+          <a class= "img-fluid" href="files/Erin_Resume.pdf" target="_blank"><img alt="Resume thumbnail" id="thumb"
               src="files/resume-720.png"></a>
         </div>
-
-        <div class="col-4" id="contact-info">
-          <h2>Contact info</h2>
-            <li><strong>Email: </strong><a href="mailto:erin.acumen@gmail.com"> erin.acumen@gmail.com</a></li>
-            <li><strong>Github: </strong><a href="https://github.com/erin-smith/" target="_blank">github.com/erin-smith</a></li>
-            <li><strong>Linked In: </strong><a href="https://www.linkedin.com/in/erin-s-3a596677/">Professional Profile </a></li>
-
-
+        <div class="col-lg-6" id="contact-info">
+          <h2 class="mb-3">Contact info</h2>
+          <ul class="list-inline">
+          <li class="list-inline-item"><a href="mailto:erin.acumen@gmail.com"><i class="fas fa-at"></i>erin.acumen@gmail.com</a></li>
+          <li class="list-inline-item"><a href="https://github.com/erin-smith" target="_blank" alt="Github" height="50px"><i
+            class="fab fa-github"></i>erin-smith</a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/erin-s-3a596677/" target="_blank" alt="LinkedIn" height="50px"><i
+            class="fab fa-linkedin"></i>My Profile</a></li>
+          </ul>
+          <img src="files/self.jpg" alt="Erin" id="bio-image" class="img-fluid">
         </div>
       </div>
     </div>
