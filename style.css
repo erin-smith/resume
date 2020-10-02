@@ -5,7 +5,7 @@
   margin-right: 0;
 }
   body { 
-  background-color: #efeee7;
+  background-color: rgb(241, 208, 165);
   font-family: Georgia, "Times New Roman", Times, serif; 
   font-size: 20px;
   line-height: 150%;
@@ -16,7 +16,7 @@ i {
 }
 
 h1 {
-  color: #efeee7;
+  color:rgb(241, 232, 219);
   background-color: #333333;
   text-align: center;
   font-size: 40px;
