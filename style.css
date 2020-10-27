@@ -5,7 +5,7 @@
   margin-right: 0;
 }
   body { 
-  background-color: rgb(241, 208, 165);
+  background-color: rgb(218, 202, 180);
   font-family: Georgia, "Times New Roman", Times, serif; 
   font-size: 20px;
   line-height: 150%;
@@ -40,7 +40,7 @@ h2 {
 }
 
 #thumb{
-  width: 69%;
+  width: 70%;
 }
 
 a {
